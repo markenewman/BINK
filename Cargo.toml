@@ -1,0 +1,13 @@
+[package]
+name = "bink"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "BINK: a dark, first-person 3D front end for classic text adventures"
+
+[dependencies]
+macroquad = "0.4"
+
+[profile.release]
+opt-level = "s"
+lto = true
